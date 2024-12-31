@@ -794,6 +794,11 @@ form.ui.form h5 {
   .banner {
     height: auto;
   }
+  .copyright.justify-content-end {
+    padding: 10px 0;
+    border-top: 1px dotted #fff;
+    margin-top: 10px;
+}
 
   .banner .gradient-border {
     padding: 0.9rem;
@@ -820,6 +825,9 @@ form.ui.form h5 {
     height: 85vh;
     width: 90%;
   }
+  .banner p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:576px) {
