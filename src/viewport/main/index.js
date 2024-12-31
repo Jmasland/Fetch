@@ -202,7 +202,7 @@ const Main = () => {
                     </ul>
                   </div>
                   <div className="col-md-6">
-                    <h5 className="listing-style">Vermont</h5>
+                    <h5 className="poppins-font">Vermont</h5>
                     <ul className="list-style-disc">
                       <li className="listing">Norwich</li>
                       <li className="listing">Hartford</li>
