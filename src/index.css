@@ -536,8 +536,9 @@ footer .img-wrap img {
 }
 
 .swal2-container.swal2-center.swal2-backdrop-show .swal2-close {
-  font-size: 37px;
-  font-weight: bold;
+    line-height: 1;
+    font-size: 37px;
+    font-weight: 500;
 }
 
 .small-img {
