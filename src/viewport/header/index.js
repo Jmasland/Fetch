@@ -39,7 +39,7 @@ const Header = () => {
         </div>
         <nav className="navbar navbar-expand-lg light-bg">
           <div className="container">
-            <div className="col-sm-9 col-lg-10">
+            <div className="col-6 col-lg-10">
               <button
                 class="navbar-toggler collapsed"
                 type="button"
@@ -75,7 +75,7 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-sm-3 col-lg-2">
+            <div className="col-6 col-lg-2">
               <button className="common-btn w-85" target="blank" onClick={togglePopup}>
                 <ButtonIcon />
               </button>
