@@ -642,6 +642,10 @@ footer .img-wrap img {
   color: #fff;
 }
 
+form.ui.form h5 {
+  text-align: left;
+}
+
 @media screen and (max-width:1366px) {
   .banner p {
     font-size: 17px;
@@ -678,6 +682,10 @@ footer .img-wrap img {
     box-shadow: none;
     position: relative;
     margin-left: 0;
+  }
+
+  .popup-wrappper .info-wrap {
+    margin-bottom: 1rem;
   }
 
   .blank {
