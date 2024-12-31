@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container pb-3">
         <div className="row text-center">
           <div className="col-md-12">
-            <h2 className="mb-5 wow fadeInUp animated heading" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h2>
+            <h2 className="mb-3 mb-lg-5 wow fadeInUp animated heading" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h2>
           </div>
         </div>
         <div className="row">
@@ -31,7 +31,7 @@ const Footer = () => {
               <span className="small-text mb-2 d-flex"><b>Sadie and Blanquita</b> </span>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 overflow-hidden">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4 mt-lg-0 overflow-hidden">
             <div className="footer-wrap">
               <h5 className="poppins-font mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Skye Lilley</h5>
               <span className="small-text mb-2 d-flex">Chief Dog Whisperer </span>
@@ -46,7 +46,7 @@ const Footer = () => {
               </ul>
               <div className="img-wrap mt-4 gradient-border primary-gradient">
                 <img className="img-fluid" alt="banner" src={Dog2} />
-              </div>              
+              </div>
               <span className="small-text mb-2 d-flex"><b>Bronco</b> </span>
             </div>
           </div>
@@ -63,8 +63,12 @@ const Footer = () => {
             </div>
             <div className="col-md-6">
               <div className="copyright align-items-center justify-content-end h-100 text-white d-flex">
+                <a href="https://www.instagram.com/dogsandmushrooms?igsh=ZjAxbThneTdsYmxh&utm_source=qr" target="_blank">
                 <FaInstagram />
-                <FaLinkedin />
+                </a>
+                <a href="#hh" target="_blank">
+                  <FaLinkedin />
+                </a>
               </div>
             </div>
           </div>

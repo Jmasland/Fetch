@@ -10,7 +10,7 @@ import Visits from "../../../src/assets/vet-visits.png";
 import Grooming from "../../../src/assets/Grooming.png";
 import Pawn from "../../../src/assets/pawn.png"
 import { ButtonIcon } from "../../svgIcon/svg";
-import { FaArrowCircleUp } from 'react-icons/fa';
+// import { FaArrowCircleUp } from 'react-icons/fa';
 
 const Main = () => {
   const [isOpen, setIsOpen,] = useState(false);
@@ -74,7 +74,7 @@ const Main = () => {
             </div>
           </div>
           <div className="row d-flex align-items-center">
-            <div className="col-md-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-6 col-lg-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <div className="img-wrap justify-content-center gradient-border">
                   <div className="border-wrap border-green">
@@ -89,7 +89,7 @@ const Main = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-6 col-lg-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <div className="img-wrap justify-content-center gradient-border primary-gradient">
                   <div className="border-wrap border-green">
@@ -104,7 +104,7 @@ const Main = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-6 col-lg-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <div className="img-wrap justify-content-center gradient-border primary-gradient">
                   <div className="border-wrap border-green">
@@ -119,7 +119,7 @@ const Main = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-6 col-lg-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <div className="img-wrap justify-content-center gradient-border primary-gradient">
                   <div className="border-wrap border-green">
@@ -134,7 +134,7 @@ const Main = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-6 col-lg-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <div className="img-wrap justify-content-center gradient-border primary-gradient">
                   <div className="border-wrap border-green">
@@ -149,7 +149,7 @@ const Main = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-6 col-lg-4 mb-lg-0 mt-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <div className="img-wrap justify-content-center gradient-border primary-gradient">
                   <div className="border-wrap border-green">
@@ -179,12 +179,12 @@ const Main = () => {
       <div className="serviceArea p-80 light-bg" id="serviceArea">
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-lg-6 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-lg-6 col-md-12 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="service-left">
                 <img alt="blank" className="img-fluid" src={servicesImg} />
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div className="col-lg-6 col-md-12 mt-lg-0 mt-4 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
               <div className="area-wrapper">
                 <div className="row">
                   <div className="col-md-12">

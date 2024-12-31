@@ -15,20 +15,20 @@ const Header = () => {
         <div className="top-bar">
           <div className="container">
             <div className="row d-flex align-items-center">
-              <div className="col-sm-6">
+              <div className="col-8">
                 <ul className="header-info mb-0 d-flex align-items-center list-unstyled">
                   <span className='d-flex'><FaRegEnvelope /> </span><li className='small-text'><a href="mailto:jonathan@fetchpetservice.com" target="blank">jonathan@fetchpetservice.com </a></li>
                 </ul>
               </div>
-              <div className="col-sm-6">
+              <div className="col-4">
                 <ul className="nav navbar-nav flex-row justify-content-end social-icons">
                   <li className="nav-item me-4 nav-link">
-                    <a href="#hh">
+                    <a href="https://www.facebook.com/profile.php?id=61564380517438&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank">
                       <FaFacebookF />
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#hh">
+                    <a href="#hh" target="_blank">
                       <FaLinkedinIn />
                     </a>
                   </li>
@@ -51,8 +51,8 @@ const Header = () => {
                 </div>
               </button>
               <div className="collapse navbar-collapse justify-content-start" id="navbar-content">
-                <ul className="nav navbar-nav flex-row align-items-center">
-                  <li className="nav-item nav-link ps-0">
+                <ul className="nav navbar-nav">
+                  <li className="nav-item nav-link ps-lg-0">
                     <a href="#home" className="nav-anchor">
                       Home
                     </a>
