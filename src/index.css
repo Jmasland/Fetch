@@ -691,6 +691,7 @@ form.ui.form h5 {
     margin-left: auto;
     display: flex;
     justify-content: end;
+    padding:0;
 }
 
   .blank {
