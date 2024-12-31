@@ -21,7 +21,8 @@ h6 {
 }
 
 h5 {
-  font-size: 1.1rem;
+  font-size: 1.01rem;
+  line-height: normal;
 }
 
 body {
@@ -94,13 +95,13 @@ button.btn.search:hover {
   background-color: #1c7c54;
 }
 
-.nav-item a {
+.top-bar .nav-item a {
   min-width: 25px;
   height: 25px;
-  background-color: #fff;
-  border-radius: 100%;
   align-content: center;
   justify-content: center;
+  background-color: #fff;
+  border-radius: 100%;
 }
 
 .nav-item a svg {
@@ -165,6 +166,7 @@ nav .row {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 15px;
+  text-align: left;
 }
 
 .gradient-border {
@@ -463,7 +465,7 @@ footer .img-wrap img {
 }
 
 .popup-wrappper {
-  width: 75%;
+  width: 85%;
   margin: auto;
   height: 100%;
   overflow-y: scroll;
@@ -512,6 +514,7 @@ footer .img-wrap img {
 
 .box .ui.input {
   position: relative;
+  width: 90%;
 }
 
 .box .close-icon,
@@ -635,6 +638,9 @@ footer .img-wrap img {
   font-weight: 100;
 }
 
+.copyright a {
+  color: #fff;
+}
 
 @media screen and (max-width:1366px) {
   .banner p {
@@ -663,7 +669,7 @@ footer .img-wrap img {
 
 @media screen and (max-width:992px) {
   button.navbar-toggler {
-    border: 1px solid #fff;
+    border: 2px solid #1c7c54;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -672,6 +678,18 @@ footer .img-wrap img {
     box-shadow: none;
     position: relative;
     margin-left: 0;
+  }
+
+  .blank {
+    display: none;
+  }
+
+  .box .ui.input {
+    width: 100%;
+  }
+
+  .hamburger {
+    fill: #1c7c54;
   }
 
   .banner .border-wrap {
@@ -722,9 +740,9 @@ footer .img-wrap img {
 
   #navbar-content {
     position: absolute;
-    background-color: #2297f3;
+    background-color: #1c7c54;
     left: 15px;
-    width: 97%;
+    width: 93%;
     z-index: 9;
     padding: 0 15px;
     box-shadow: 1px 6px 9px rgb(0 0 0 / 25%);
@@ -789,6 +807,7 @@ footer .img-wrap img {
   .common-wrap .img-wrap {
     max-width: 250px;
   }
+
   .box {
     height: 85vh;
     width: 90%;
@@ -798,11 +817,6 @@ footer .img-wrap img {
 @media screen and (max-width:576px) {
   .top-bar .d-flex.align-items-center {
     text-align: center;
-  }
-
-  ul.header-info {
-    justify-content: space-evenly !important;
-    margin-bottom: 10px !important;
   }
 
   .header_top {
@@ -825,4 +839,30 @@ footer .img-wrap img {
   .brand .img-responsive {
     max-height: 39px;
   }
+}
+
+/* Total scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d1e0c8;
+  /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1c7c54;
+  /* Color of the handle */
+  border-radius: 10px;
+  /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c7c54;
+  /* Color of the handle on hover */
 }
