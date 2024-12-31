@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="orange-bg mt-5">
+      <div className="orange-bg mt-3 mt-lg-5">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
