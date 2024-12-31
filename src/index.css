@@ -687,6 +687,11 @@ form.ui.form h5 {
   .popup-wrappper .info-wrap {
     margin-bottom: 1rem;
   }
+  .navbar button {
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+}
 
   .blank {
     display: none;
