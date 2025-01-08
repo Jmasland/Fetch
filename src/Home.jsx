@@ -1,3 +1,4 @@
+import Favicon from "react-favicon";
 import Header from "./viewport/header";
 import FavIcon from "./assets/favicon.png";
 import Footer from "./viewport/footer";
