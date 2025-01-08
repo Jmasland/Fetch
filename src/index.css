@@ -833,6 +833,15 @@ form.ui.form h5 {
   .banner p {
         font-size: 16px;
     }
+  footer p i {
+    font-size: 1rem;  
+  }  
+  .copyright img {
+    height: 40px;
+  }
+  .copyright.text-white.d-flex.align-items-center {
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width:576px) {
