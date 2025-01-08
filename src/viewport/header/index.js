@@ -22,12 +22,12 @@ const Header = () => {
               </div>
               <div className="col-4">
                 <ul className="nav navbar-nav flex-row justify-content-end social-icons">
-                  <li className="nav-item me-md-4 me-3 nav-link">
+                  <li className="nav-item me-md-4 me-2 nav-link">
                     <a href="https://www.facebook.com/profile.php?id=61564380517438&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank">
                       <FaFacebookF />
                     </a>
                   </li>
-                  <li className="nav-item me-md-4 me-3 nav-link">
+                  <li className="nav-item me-md-4 me-2 nav-link">
                     <a href="https://www.instagram.com/Fetchuppervalley?igsh=ZjAxbThneTdsYmxh&utm_source=qr" target="_blank">
                       <FaInstagram />
                     </a>
