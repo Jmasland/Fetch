@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Fragment } from "react";
 import Popup from "../../components/Popup";
 import { ButtonIcon } from "../../svgIcon/svg"
-import { FaBars, FaFacebookF, FaRegEnvelope, FaLinkedinIn } from "react-icons/fa";
+import { FaBars, FaFacebookF, FaInstagram, FaRegEnvelope, FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen,] = useState(false);
@@ -27,11 +27,15 @@ const Header = () => {
                       <FaFacebookF />
                     </a>
                   </li>
+                  <li className="nav-item me-4 nav-link">
+                    <a href="https://www.instagram.com/Fetchuppervalley?igsh=ZjAxbThneTdsYmxh&utm_source=qr" target="_blank">
+                      <FaInstagram />
+                    </a>
+                  </li>
                   <li className="nav-item nav-link">
                     <a href="#hh" target="_blank">
                       <FaLinkedinIn />
                     </a>
-                  </li>
                 </ul>
               </div>
             </div>
