@@ -36,6 +36,7 @@ const Header = () => {
                     <a href="#hh" target="_blank">
                       <FaLinkedinIn />
                     </a>
+                  </li>
                 </ul>
               </div>
             </div>
