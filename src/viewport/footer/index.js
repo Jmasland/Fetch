@@ -16,9 +16,9 @@ const Footer = () => {
             <div className="footer-wrap">
               <h5 className="poppins-font mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Jonathan Masland</h5>
               <span className="small-text mb-2 d-flex">Owner</span>
-              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><FaPhoneVolume />(603) 486 1711</p>
-              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><FaEnvelope />jonathan@fetchpetservice.com</p>
-              <ul className="list-style-disc mt-2">
+               <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="tel:(603) 486 1711"><FaPhoneVolume />(603) 486 1711</a></p>
+               <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="mailto:jonathan@fetchpetservice.com" target="blank"><FaEnvelope />jonathan@fetchpetservice.com</a></p>
+               <ul className="list-style-disc mt-2">
                 <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Owner of Sadie and Blanquita, rescues adopted by my two dog loving daughters</li>
                 <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">Dog rescue volunteer</li>
                 <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">Upper Valley trail runner & Lyme resident</li>
@@ -35,8 +35,8 @@ const Footer = () => {
             <div className="footer-wrap">
               <h5 className="poppins-font mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Skye Lilley</h5>
               <span className="small-text mb-2 d-flex">Chief Dog Whisperer </span>
-              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><FaPhoneVolume />(802) 324 9502</p>
-              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><FaEnvelope />skye@fetchpetservice.com</p>
+              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="tel:(802) 324 9502"><FaPhoneVolume />(802) 324 9502</a></p>
+              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="mailto:skye@fetchpetservice.com" target="blank"><FaEnvelope />skye@fetchpetservice.com</a></p>
               <ul className="list-style-disc mt-2">
                 <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Pet owner of 50+ dogs including Bronco</li>
                 <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">Sled dog & horse trainer and riding instructor</li>
