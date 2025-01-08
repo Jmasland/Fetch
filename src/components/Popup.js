@@ -151,8 +151,7 @@ const Popup = props => {
                                         id='form-input-control-phone'
                                         control={Input}
                                         name='town'
-                                        placeholder='Town where you live*'
-                                        required
+                                        placeholder='Town where you live'
                                         type="text"
                                     />
                                 </div>
@@ -182,8 +181,7 @@ const Popup = props => {
                                             id='form-input-control-name'
                                             control={Input}
                                             name='dog1_name'
-                                            placeholder='Name*'
-                                            required
+                                            placeholder='Name'
                                             type="text"
                                         />
                                         <Form.Field className="col-sm-12 mb-4"
@@ -215,8 +213,7 @@ const Popup = props => {
                                             id='form-input-control-name'
                                             control={Input}
                                             name='dog2_name'
-                                            placeholder='Name*'
-                                            required
+                                            placeholder='Name'
                                             type="text"
                                         />
                                         <Form.Field className="col-sm-12 mb-4"
