@@ -1,7 +1,7 @@
 import footerLogo from "../../../src/assets/footer-logo.png";
 import Dog1 from "../../../src/assets/SadieAndBlanquita.png";
 import Dog2 from "../../../src/assets/Bronco.png";
-import { FaPhoneVolume, FaEnvelope, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import { FaPhoneVolume, FaEnvelope, FaFacebookF, FaLinkedin, FaInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="p-80 pb-0 green-bg" id="AboutUs">
@@ -63,10 +63,13 @@ const Footer = () => {
             </div>
             <div className="col-md-6">
               <div className="copyright align-items-center justify-content-end h-100 text-white d-flex">
-                <a href="https://www.instagram.com/dogsandmushrooms?igsh=ZjAxbThneTdsYmxh&utm_source=qr" target="_blank">
-                <FaInstagram />
+                <a href="https://www.facebook.com/profile.php?id=61564380517438&mibextid=wwXIfr&mibextid=wwXIfr" target="_blank">
+                  <FaFacebookF />
                 </a>
-                <a href="#hh" target="_blank">
+                <a href="https://www.instagram.com/Fetchuppervalley?igsh=ZjAxbThneTdsYmxh&utm_source=qr" target="_blank">
+                  <FaInstagram />
+                </a>
+                <a href="https://www.linkedin.com/company/fetchpetservice" target="_blank">
                   <FaLinkedin />
                 </a>
               </div>
