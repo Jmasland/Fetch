@@ -384,9 +384,12 @@ footer .img-wrap img {
 .orange-bg {
   background-color: #e4811d;
 }
+.copyright{
+  margin: 5px 0;
+}
 
 .copyright img {
-  height: 60px;
+  height: 50px;
 }
 
 .copyright svg {
