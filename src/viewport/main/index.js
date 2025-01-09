@@ -198,7 +198,6 @@ const Main = () => {
                       <li className="listing">Hanover</li>
                       <li className="listing">Lyme</li>
                       <li className="listing">Lebanon</li>
-                      <li className="listing">Claremont</li>
                     </ul>
                   </div>
                   <div className="col-md-6">
