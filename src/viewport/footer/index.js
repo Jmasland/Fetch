@@ -25,29 +25,14 @@ const Footer = () => {
                 <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">Decade+ working at Dartmouth</li>
                 <li className="listing blank wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">Decade+ working at Dartmouth</li>
               </ul>
-              <div className="img-wrap mt-4 gradient-border primary-gradient">
-                <img className="img-fluid" alt="banner" src={Dog1} />
-              </div>
-              <span className="small-text mb-2 d-flex"><b>Sadie and Blanquita</b> </span>
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4 mt-lg-0 overflow-hidden">
             <div className="footer-wrap">
-              <h5 className="poppins-font mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Skye Lilley</h5>
-              <span className="small-text mb-2 d-flex">Chief Dog Whisperer </span>
-              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="tel:(802) 324 9502"><FaPhoneVolume />(802) 324 9502</a></p>
-              <p className="mb-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="mailto:skye@fetchpetservice.com" target="blank"><FaEnvelope />skye@fetchpetservice.com</a></p>
-              <ul className="list-style-disc mt-2">
-                <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Pet owner of 50+ dogs including Bronco</li>
-                <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">Sled dog & horse trainer and riding instructor</li>
-                <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">Specialization in natural horsemanship and rehabilitating animals that have suffered trauma</li>
-                <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">Experience working for veterinarians</li>
-                <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1600ms">Degrees in equine science and business</li>
-              </ul>
               <div className="img-wrap mt-4 gradient-border primary-gradient">
-                <img className="img-fluid" alt="banner" src={Dog2} />
+                <img className="img-fluid" alt="banner" src={Dog1} />
               </div>
-              <span className="small-text mb-2 d-flex"><b>Bronco</b> </span>
+              <span className="small-text mb-2 d-flex"><b>Sadie and Blanquita</b> </span>
             </div>
           </div>
         </div>
@@ -82,3 +67,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
