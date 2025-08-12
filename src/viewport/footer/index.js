@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-4 mt-lg-0 overflow-hidden">
             <div className="footer-wrap">
-              <div className="img-wrap mt-4 gradient-border primary-gradient">
+              <div className="img-wrap gradient-border primary-gradient">
                 <img className="img-fluid" alt="banner" src={Dog1} />
               </div>
               <span className="small-text mb-2 d-flex"><b>Sadie and Blanquita</b> </span>
@@ -67,4 +67,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
