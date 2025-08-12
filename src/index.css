@@ -220,6 +220,7 @@ nav .row {
 
 .img-wrap {
   margin: auto;
+  width:60%;
 }
 
 .common-btn {
@@ -898,4 +899,5 @@ form.ui.form h5 {
   background: #1c7c54;
   /* Color of the handle on hover */
 }
+
 
